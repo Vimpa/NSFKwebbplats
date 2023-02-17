@@ -1,0 +1,44 @@
+body {
+   background-image: linear-gradient(#0000007a, #386150), url("../images/tavlingbakgrund.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ #search #fiskekort {
+    padding: 6px; 
+    width: 15%; 
+    margin-left: 20px; 
+    background-color:rgba(0, 0, 0, 0.614);
+    color:#C6A523; 
+ }
+ #search #fiskekort:hover {
+    background-color: rgba(255, 255, 255, 0.244); 
+ }
+ #searchInput {
+    padding: 15px; 
+    width: 20%; 
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.614);
+    border:none; 
+    color:white; 
+    margin: 10px;  
+ }
+ #blimedlemDiv {
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+ }
+ #loggainDiv {
+    padding-top: 10%; 
+    padding-bottom: 10%; 
+ }
+ #registrera {
+    color: white; 
+ }
+ #searchInput::placeholder {
+    color:#C6A523;  
+ }
+ h1 {
+    color: white; 
+    font-size: 40px; 
+ }
